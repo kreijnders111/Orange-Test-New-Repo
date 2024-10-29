@@ -185,9 +185,6 @@
         },
         {
           "id": "gmbLinkedAccount"
-        },
-        {
-          "id": "linkedinLinkedAccount"
         }
       ]
     },
@@ -1226,16 +1223,6 @@
         },
         {
           "id": "bingAdProfession"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Other Publishers",
-      "displayNameTranslations": [
-        {
-          "localeCode": "fr",
-          "value": "Autres publisher"
         }
       ]
     },
