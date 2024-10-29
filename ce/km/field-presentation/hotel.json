@@ -1231,19 +1231,6 @@
     },
     {
       "defaultCollapsed": true,
-      "displayName": "Uber",
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "uberLink"
-        },
-        {
-          "id": "uberTripBranding"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
       "displayName": "Other Publishers",
       "displayNameTranslations": [
         {
