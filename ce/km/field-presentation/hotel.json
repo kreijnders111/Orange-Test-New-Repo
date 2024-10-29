@@ -1237,12 +1237,6 @@
           "localeCode": "fr",
           "value": "Autres publisher"
         }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "bookingDotComPropertyId"
-        }
       ]
     },
     {
