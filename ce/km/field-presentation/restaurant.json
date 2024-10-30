@@ -431,40 +431,6 @@
     },
     {
       "defaultCollapsed": true,
-      "displayName": "Facebook Fields",
-      "displayNameTranslations": [
-        {
-          "localeCode": "fr",
-          "value": "Champs Facebook"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "facebookCoverPhoto"
-        },
-        {
-          "id": "facebookProfilePhoto"
-        },
-        {
-          "id": "facebookOverrideCity"
-        },
-        {
-          "id": "facebookName"
-        },
-        {
-          "id": "facebookDescriptor"
-        },
-        {
-          "id": "facebookVanityUrl"
-        },
-        {
-          "id": "facebookAbout"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
       "displayName": "Apple Fields",
       "displayNameTranslations": [
         {
