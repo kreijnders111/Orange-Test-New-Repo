@@ -84,7 +84,7 @@
       "displayNameTranslations": [
         {
           "localeCode": "fr",
-          "value": "Détails de l\u0027entreprise"
+          "value": "Détails de l'entreprise"
         }
       ],
       "entryType": "SECTION",
@@ -182,6 +182,9 @@
         },
         {
           "id": "gmbLinkedAccount"
+        },
+        {
+          "id": "linkedinLinkedAccount"
         }
       ]
     },
@@ -224,7 +227,7 @@
       "displayNameTranslations": [
         {
           "localeCode": "fr",
-          "value": "Listes de contenu optimisées"
+          "value": "Listes de contenu optimis es"
         }
       ],
       "entryType": "SECTION"
@@ -235,12 +238,13 @@
       "displayNameTranslations": [
         {
           "localeCode": "fr",
-          "value": "Caractéristiques supplémentaires"
+          "value": "Caract ristiques suppl mentaires"
         }
       ],
       "entryType": "SECTION"
     },
     {
+      "defaultCollapsed": true,
       "displayName": "Landing Pages",
       "displayNameTranslations": [
         {
@@ -249,16 +253,6 @@
         }
       ],
       "entryType": "SECTION"
-    },
-    {
-      "displayName": "Additional Hours",
-      "displayNameTranslations": [
-        {
-          "localeCode": "fr",
-          "value": "Horaires supplémentaires"
-        }
-      ],
-      "entryType": "DIVIDER"
     },
     {
       "defaultCollapsed": true,
@@ -283,77 +277,11 @@
       ]
     },
     {
-      "defaultCollapsed": true,
-      "displayName": "Order Pickup",
-      "displayNameTranslations": [
-        {
-          "localeCode": "fr",
-          "value": "Retrait des commandes"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "pickupHours"
-        },
-        {
-          "id": "driveThroughHours"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Food and Drink",
-      "displayNameTranslations": [
-        {
-          "localeCode": "fr",
-          "value": "Plats et boissons"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "kitchenHours"
-        },
-        {
-          "id": "brunchHours"
-        },
-        {
-          "id": "happyHours"
-        },
-        {
-          "id": "dineInHours"
-        }
-      ]
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Takeaway and Delivery",
-      "displayNameTranslations": [
-        {
-          "localeCode": "fr",
-          "value": "Vendre, emporter et livraison"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "takeoutHours"
-        },
-        {
-          "id": "deliveryHours"
-        },
-        {
-          "id": "pickupAndDeliveryServices"
-        }
-      ]
-    },
-    {
       "displayName": "Publisher Specific",
       "displayNameTranslations": [
         {
           "localeCode": "fr",
-          "value": "Spécifique é l\u0027annuaire"
+          "value": "Spécifique l'annuaire"
         }
       ],
       "entryType": "DIVIDER"
@@ -364,7 +292,7 @@
       "displayNameTranslations": [
         {
           "localeCode": "fr",
-          "value": "Champs de fiche d\u0027établissement Google"
+          "value": "Champs de fiche d'établissement Google"
         }
       ],
       "entryType": "SECTION",
@@ -401,7 +329,7 @@
       "displayNameTranslations": [
         {
           "localeCode": "fr",
-          "value": "Caractéristiques Google Business Profile"
+          "value": "Caractristiques Google Business Profile"
         }
       ],
       "entryType": "SECTION"
@@ -466,6 +394,82 @@
       ]
     },
     {
+      "displayName": "Food and Drink",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Plats et Boisson"
+        }
+      ],
+      "entryType": "DIVIDER"
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Order Pickup",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Retrait des commandes"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "pickupHours"
+        },
+        {
+          "id": "driveThroughHours"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Food and Drink",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Plats et boissons"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "kitchenHours"
+        },
+        {
+          "id": "brunchHours"
+        },
+        {
+          "id": "happyHours"
+        },
+        {
+          "id": "dineInHours"
+        }
+      ]
+    },
+    {
+      "defaultCollapsed": true,
+      "displayName": "Takeaway and Delivery",
+      "displayNameTranslations": [
+        {
+          "localeCode": "fr",
+          "value": "Vente à emporter et livraison"
+        }
+      ],
+      "entryType": "SECTION",
+      "fields": [
+        {
+          "id": "takeoutHours"
+        },
+        {
+          "id": "deliveryHours"
+        },
+        {
+          "id": "pickupAndDeliveryServices"
+        }
+      ]
+    },
+    {
       "displayName": "Other",
       "displayNameTranslations": [
         {
@@ -513,6 +517,7 @@
       ]
     },
     {
+      "defaultCollapsed": true,
       "displayName": "Other Fields",
       "displayNameTranslations": [
         {
@@ -575,6 +580,45 @@
         },
         {
           "id": "landingPageUrl"
+        },
+        {
+          "id": "bingWebsiteOverride"
+        },
+        {
+          "id": "bookingDotComPropertyId"
+        },
+        {
+          "id": "facebookAbout"
+        },
+        {
+          "id": "facebookOverrideCity"
+        },
+        {
+          "id": "facebookCoverPhoto"
+        },
+        {
+          "id": "facebookDescriptor"
+        },
+        {
+          "id": "facebookName"
+        },
+        {
+          "id": "facebookProfilePhoto"
+        },
+        {
+          "id": "facebookVanityUrl"
+        },
+        {
+          "id": "facebookWebsiteOverride"
+        },
+        {
+          "id": "uberLink"
+        },
+        {
+          "id": "uberTripBranding"
+        },
+        {
+          "id": "yelpWebsiteOverride"
         }
       ]
     },
