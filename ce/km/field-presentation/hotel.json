@@ -188,6 +188,9 @@
         },
         {
           "id": "gmbLinkedAccount"
+        },
+        {
+          "id": "linkedinLinkedAccount"
         }
       ]
     },
