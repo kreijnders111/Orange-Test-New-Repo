@@ -185,6 +185,9 @@
         },
         {
           "id": "linkedinLinkedAccount"
+        },
+        {
+          "id": "trustpilotLinkedAccount"
         }
       ]
     },
