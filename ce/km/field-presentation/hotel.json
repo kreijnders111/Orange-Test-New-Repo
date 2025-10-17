@@ -1315,31 +1315,6 @@
         }
       ],
       "entryType": "DIVIDER"
-    },
-    {
-      "defaultCollapsed": true,
-      "displayName": "Knowledge Assistant",
-      "displayNameTranslations": [
-        {
-          "localeCode": "fr",
-          "value": "Assistant Knowledge"
-        }
-      ],
-      "entryType": "SECTION",
-      "fields": [
-        {
-          "id": "primaryConversationContact"
-        },
-        {
-          "id": "holidayHoursConversationEnabled"
-        },
-        {
-          "id": "reviewResponseConversationEnabled"
-        },
-        {
-          "id": "nudgeEnabled"
-        }
-      ]
     }
   ]
 }
